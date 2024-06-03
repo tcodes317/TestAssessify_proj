@@ -1,3 +1,9 @@
-@tailwind base
-@tailwind utilities
-@tailwind component
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+}
