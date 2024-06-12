@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      screen:{
+      screens:{
         desk: "1440px",
         iph_se: "375px",
         iph_xr: "414px",
@@ -17,7 +17,7 @@ export default {
         ipad_pro: "1024px",
         surf_pro: "912px",
         surf_duo: "540px",
-        gal: "344px",
+        gal: "343px",
         asus: "853px",
         sam_a: "412px",
         nest: "1024px",

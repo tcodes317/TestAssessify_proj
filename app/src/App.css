@@ -1,3 +1,49 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+#bgOne{
+    /* background-image: url("	https://testassessify.com/static/media/landing_header.f3f7ca3b906bfbf3ff39.JPG"); */
+    background-image: url(./assets/landing_header.f3f7ca3b906bfbf3ff39.JPG);
+    height: 680px;
+    background-size: cover;
+    background-position:0px -115px;
+}
+#bgTwo{
+    background-color: #fcfcfc;
+}
+#bgThree{
+    background-color: rgba(255, 192, 203, 0.034);
+}
+#footer{
+    background-color: #fcfcfc;
+}
+#iii,
+#iv,
+#ii{
+    height: 300px;
+}
+#dbgOne{
+    background-image: url("./assets/landing_header.JPG2.18e3c423b875ba3a004a.JPG");
+    /* background-image: url(https://testassessify.com/static/media/landing_header.JPG2.18e3c423b875ba3a004a.JPG); */
+    height: 430px;
+    background-position-y: -290px;
+    background-position-x: 0px;
+    background-size: cover;
+}
+#hh{
+    font-size: 22px;
+}
+#gdpp{    
+    background-image: url("./assets/landing_header.JPG2.18e3c423b875ba3a004a.JPG");
+    height: 500px;
+    background-position: -290px;
+    background-size: cover;
+    background-position-x: 0px;
+}
