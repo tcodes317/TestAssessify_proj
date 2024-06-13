@@ -25,15 +25,15 @@ export default function Home(){
             </div>
             
             <div className="my-14 text-center"> {/** section two */}
-                <h1 className="text-blue-950 text-5xl gal:font-bold desk:font-normal">Join the companies replacing CVs with TestAssessify</h1>
+                <h1 className="text-blue-950 desk:text-5xl gal:text-5xl iph_se:text-5xl iph_xr:text-4xl gal:font-bold desk:font-normal pix:text-4xl ipad:text-5xl surf_duo:text-5xl">Join the companies replacing CVs with TestAssessify</h1>
             </div>
 
             <div className="py-12 pb-16" id="bgTwo"> {/** section three */}
-                <div className="flex items-center gal:flex gal:flex-col desk:space-x-14">
+                <div className="flex ipad:flex-row items-center gal:flex gal:flex-col desk:space-x-14">
                     <div className="desk:w-7/12 gal:relative gal:-left-12 desk:static">
                         <img src={img} srcset={img} />
                     </div>
-                    <div className="desk:w-5/12 space-y-7 gal:px-6 desK:p-0">
+                    <div className="desk:w-5/12 space-y-7 gal:px-6 desk:p-0 surf_duo:px-28">
                         <h1 className="desk:text-4xl gal:text-5xl font-bold text-blue-950">What we do</h1>
                         <p>We create personalised, realistic job assessment that authentically commnicate what's it's like to work within a specific role in your organisation.</p>
                         <div className="space-y-4">
