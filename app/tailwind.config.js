@@ -22,6 +22,7 @@ export default {
         asus: "853px",
         sam_a: "412px",
         nest: "1024px",
+        nestMax: "1280px"
       }
     },
   },

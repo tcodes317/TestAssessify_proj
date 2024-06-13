@@ -14,7 +14,7 @@ export default function Home(){
             
             <div className="w-full relative gal:pt-12 gal:pl-8 desk:pl-0 desk:pt-0" id="bgOne"> {/** section one */}
                 <div className="deskii:left-44 desk:absolute desk:left-24 ipad:w-7/12 ipad:absolute nest:top-32 ipad:top-28 space-y-8 desk:top-72 desk:w-6/12">
-                    <h1 className="desk:text-4xl font-bold ipad_pro:w-10/12 desk:w-9/12 text-black iph_se:text-4xl gal:w-10/12 gal:text-4xl iph_xr:text-5xl iph_12:text-5xl iph_12:w-11/12 sam_s8:text-5xl sam_s8:w-full deskii:text-5xl">Hire the best-accurate, fair and fast recruitment!</h1>
+                    <h1 className="desk:text-4xl font-bold ipad_pro:w-10/12 desk:w-9/12 text-black iph_se:text-4xl gal:w-10/12 gal:text-4xl iph_xr:text-5xl iph_12:text-5xl iph_12:w-11/12 sam_s8:text-5xl sam_s8:w-full deskii:text-5xl nest:text-5xl nest:w-11/12 border-2">Hire the best-accurate, fair and fast recruitment!</h1>
                     <p className="w-10/12 ipad_pro:text-xl">Our screening tests identify the best candidate and make your hiring decision faster, easier and bias-free</p>
                     <div className="">
                         <button className="bg-yellow-400 deskii:p-4 deskii:px-8 desk:p-3 gal:p-3 gal:px-7 desk:px-5 iph_xr:px-12 text-white rounded-md">
@@ -56,9 +56,9 @@ export default function Home(){
 
             <div className="my-8"> {/** section four */}
                 <div className="text-center my-12">
-                    <h1 className="desk:text-4xl gal:text-5xl gal:text-blue-950 font-bold iph_se:w-10/12 iph_se:mx-auto desk:mx-0 desk:w-0">Why you should use us</h1>
+                    <h1 className="desk:text-4xl gal:text-5xl gal:text-blue-950 font-bold iph_se:w-10/12 iph_se:mx-auto desk:mx-0 desk:w-full">Why you should use us</h1>
                 </div>
-                <div className="flex asus:flex-row asus:space-x-6 asus:space-y-0 asus:px-8 gal:space-y-8 desk:space-y-0 gal:flex-col desk:flex-row items-center desk:space-x-5 justify-center">
+                <div className="flex asus:flex-row asus:space-x-6 asus:space-y-5 asus:px-8 desk:px-0  gal:space-y-8 desk:space-y-0 gal:flex-col desk:flex-row items-center desk:space-x-5 justify-center">
                     <div className="desk:w-3/12 gal:w-10/12">
                         <img src={imgi} srcset={imgi} />
                         <div className="space-y-6 mt-4 w-12/12">
@@ -86,7 +86,7 @@ export default function Home(){
             <div className="flex asus:flex-row items-center gal:flex-col desk:flex-row" id="bgThree">
                 <div className="relative w-full">
                     <div className="desk:w-10/12 desk:absolute left-28 space-y-6 gal:px-10 desk:px-0">
-                        <h1 className="font-bold desk:text-4xl text-blue-950 gal:text-5xl asus:w-6/12">Offer a positive candiate experience.</h1>
+                        <h1 className="font-bold desk:text-4xl text-blue-950 gal:text-5xl asus:w-6/12 desk:w-10/12 desk:text-5xl">Offer a positive candiate experience.</h1>
                         <p className="w-11/12 text-blue-950 gal:font-semibold desk:font-normal">Assessments are proven to provide candidates a better experience and greater satisfaction by giving them the opportunity to engage in job relevant tasks and demonstrate skills related to the job.</p>
                     </div>
                 </div>
