@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       screens:{
+        deskii: '1920px',
         desk: "1440px",
         iph_se: "375px",
         iph_xr: "414px",

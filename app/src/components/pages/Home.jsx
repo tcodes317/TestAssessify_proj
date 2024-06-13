@@ -13,11 +13,11 @@ export default function Home(){
             <Header />
             
             <div className="w-full relative gal:pt-12 gal:pl-8 desk:pl-0 desk:pt-0" id="bgOne"> {/** section one */}
-                <div className="desk:absolute space-y-8 top-72 desk:w-6/12 left-44">
-                    <h1 className="text-4xl font-bold desk:w-9/12 text-black gal:w-10/12">Hire the best-accurate, fair and fast recruitment!</h1>
-                    <p className="w-10/12">Our screening tests identify the best candidate and make your hiring decision faster, easier and bias-free</p>
+                <div className="deskii:left-44 desk:absolute desk:left-24 ipad:w-7/12 ipad:absolute nest:top-32 ipad:top-28 space-y-8 desk:top-72 desk:w-6/12">
+                    <h1 className="desk:text-4xl font-bold ipad_pro:w-10/12 desk:w-9/12 text-black iph_se:text-4xl gal:w-10/12 gal:text-4xl iph_xr:text-5xl iph_12:text-5xl iph_12:w-11/12 sam_s8:text-5xl sam_s8:w-full deskii:text-5xl">Hire the best-accurate, fair and fast recruitment!</h1>
+                    <p className="w-10/12 ipad_pro:text-xl">Our screening tests identify the best candidate and make your hiring decision faster, easier and bias-free</p>
                     <div className="">
-                        <button className="bg-yellow-400 p-3 px-5 text-white rounded-md">
+                        <button className="bg-yellow-400 deskii:p-4 deskii:px-8 desk:p-3 gal:p-3 gal:px-7 desk:px-5 iph_xr:px-12 text-white rounded-md">
                             <span>Request a demo</span>
                         </button>
                     </div>
@@ -56,7 +56,7 @@ export default function Home(){
 
             <div className="my-8"> {/** section four */}
                 <div className="text-center my-12">
-                    <h1 className="desk:text-4xl gal:text-5xl gal:text-blue-950 font-bold">Why you should use us</h1>
+                    <h1 className="desk:text-4xl gal:text-5xl gal:text-blue-950 font-bold iph_se:w-10/12 iph_se:mx-auto desk:mx-0 desk:w-0">Why you should use us</h1>
                 </div>
                 <div className="flex gal:space-y-8 desk:space-y-0 gal:flex-col desk:flex-row items-center desk:space-x-5 justify-center">
                     <div className="desk:w-3/12 gal:w-10/12">
@@ -100,7 +100,7 @@ export default function Home(){
                     <img src={imgv} className="w-11/12" srcset={imgv} />
                 </div>
                 <div className="desk:w-5/12 gal:px-8 desk:px-0 space-y-6 desk:space-y-8">
-                    <h1 className="font-bold w-10/12 text-blue-950 text-4xl desk:text-5xl desk:w-11/12 desk:mb-6">Top talent is priceless. We make finding them affordable and easier</h1>
+                    <h1 className="font-bold w-10/12 text-blue-950 text-4xl desk:text-5xl desk:w-11/12 desk:mb-6 iph_se:w-full iph_se:text-5xl">Top talent is priceless. We make finding them affordable and easier</h1>
                     <p className="text-blue-950 gal:font-semibold gal:!mt-8 desk:!mt-0 desk:text-xl  desk:!mb-6">A time-consuming screening process costs you a lot. Painful mis-hires cost you much, much more. With TestAssesify, you avoid all of this and see a huge return on investment every single year. Start screening with us today on our free plan.</p>
                     <div className="relative mt-8">
                         <button className="desk:bg-yellow-400 desk:!py-4 desk:px-12 desk:text-lg gal:bg-yellow-300 gal:px-8 gal:py-3 desk:py-0 desk:p-2 hover:bg-yellow-500 hover:transition-all rounded-md desk:px-6 text-white">
