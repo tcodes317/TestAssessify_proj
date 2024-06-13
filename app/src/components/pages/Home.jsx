@@ -58,7 +58,7 @@ export default function Home(){
                 <div className="text-center my-12">
                     <h1 className="desk:text-4xl gal:text-5xl gal:text-blue-950 font-bold iph_se:w-10/12 iph_se:mx-auto desk:mx-0 desk:w-0">Why you should use us</h1>
                 </div>
-                <div className="flex gal:space-y-8 desk:space-y-0 gal:flex-col desk:flex-row items-center desk:space-x-5 justify-center">
+                <div className="flex asus:flex-row asus:space-x-6 asus:space-y-0 asus:px-8 gal:space-y-8 desk:space-y-0 gal:flex-col desk:flex-row items-center desk:space-x-5 justify-center">
                     <div className="desk:w-3/12 gal:w-10/12">
                         <img src={imgi} srcset={imgi} />
                         <div className="space-y-6 mt-4 w-12/12">
@@ -83,10 +83,10 @@ export default function Home(){
                 </div>
             </div>
 
-            <div className="flex items-center gal:flex-col desk:flex-row" id="bgThree">
+            <div className="flex asus:flex-row items-center gal:flex-col desk:flex-row" id="bgThree">
                 <div className="relative w-full">
                     <div className="desk:w-10/12 desk:absolute left-28 space-y-6 gal:px-10 desk:px-0">
-                        <h1 className="font-bold desk:text-4xl text-blue-950 gal:text-5xl">Offer a positive candiate experience.</h1>
+                        <h1 className="font-bold desk:text-4xl text-blue-950 gal:text-5xl asus:w-6/12">Offer a positive candiate experience.</h1>
                         <p className="w-11/12 text-blue-950 gal:font-semibold desk:font-normal">Assessments are proven to provide candidates a better experience and greater satisfaction by giving them the opportunity to engage in job relevant tasks and demonstrate skills related to the job.</p>
                     </div>
                 </div>
@@ -95,11 +95,11 @@ export default function Home(){
                 </div>
             </div>
 
-            <div className="flex gal:mt-8 desk:mt-0 gal:flex-col desk:flex-row items-center space-x-2 justify-center">
+            <div className="asus:flex-row flex gal:mt-8 desk:mt-0 gal:flex-col desk:flex-row items-center space-x-2 justify-center">
                 <div className="gal:flex gal:justify-center desk:block">
                     <img src={imgv} className="w-11/12" srcset={imgv} />
                 </div>
-                <div className="desk:w-5/12 gal:px-8 desk:px-0 space-y-6 desk:space-y-8">
+                <div className="asus:w-9/12 desk:w-5/12 gal:px-8 desk:px-0 space-y-6 desk:space-y-8">
                     <h1 className="font-bold w-10/12 text-blue-950 text-4xl desk:text-5xl desk:w-11/12 desk:mb-6 iph_se:w-full iph_se:text-5xl">Top talent is priceless. We make finding them affordable and easier</h1>
                     <p className="text-blue-950 gal:font-semibold gal:!mt-8 desk:!mt-0 desk:text-xl  desk:!mb-6">A time-consuming screening process costs you a lot. Painful mis-hires cost you much, much more. With TestAssesify, you avoid all of this and see a huge return on investment every single year. Start screening with us today on our free plan.</p>
                     <div className="relative mt-8">
@@ -110,12 +110,12 @@ export default function Home(){
                 </div>
             </div>
 
-            <div className="desk:flex desk:items-center desk:justify-between desk:space-y-8 desk:py-6">
+            <div className="desk:flex mb-6 desk:items-center asus:flex-row asus:flex asus:items-center asus:justify-between asus:px-4 desk:justify-between desk:space-y-8 desk:py-6">
                 <div className="relative top-4 gal:mt-5 gal:mx-2">
-                    <h4 className="font-bold desk:text-lg gal:text-xl desk:text-2xl">Get news on all the latest updates straight to your mail</h4>
+                    <h4 className="font-bold asus:text-2xl desk:text-lg gal:text-xl desk:text-2xl">Get news on all the latest updates straight to your mail</h4>
                 </div>
                 <div className="desk:relative gal:mt-8 gal:flex gal:mx-1 desk:px-0 gal:items-center desk:-left-12 desk:border-2 gal:border-2 desk:border-black desk:rounded-sm">
-                    <input type="search" placeholder="subscribe" className="gal:w-full desk:hidden gal:p-3" />
+                    <input type="search" placeholder="subscribe" className="asus:hidden gal:w-full desk:hidden gal:p-3" />
                     <button className="bg-red-500 desk:p-3 desk:py-4 desk:px-10 desk:font-bold gal:py-4 px-8 text-white text-xs relative z-10 desk:left-6 gal:left-0">
                         <span>SUBSCRIBE</span>
                     </button>
