@@ -12,9 +12,9 @@ export default function Home(){
         <>
             <Header />
             
-            <div className="w-full relative" id="bgOne"> {/** section one */}
-                <div className="absolute space-y-8 top-72 w-6/12 left-44">
-                    <h1 className="text-4xl font-bold w-9/12 text-black">Hire the best-accurate, fair and fast recruitment!</h1>
+            <div className="w-full relative gal:pt-12 gal:pl-8 desk:pl-0 desk:pt-0" id="bgOne"> {/** section one */}
+                <div className="desk:absolute space-y-8 top-72 desk:w-6/12 left-44">
+                    <h1 className="text-4xl font-bold desk:w-9/12 text-black gal:w-10/12">Hire the best-accurate, fair and fast recruitment!</h1>
                     <p className="w-10/12">Our screening tests identify the best candidate and make your hiring decision faster, easier and bias-free</p>
                     <div className="">
                         <button className="bg-yellow-400 p-3 px-5 text-white rounded-md">
@@ -25,16 +25,16 @@ export default function Home(){
             </div>
             
             <div className="my-14 text-center"> {/** section two */}
-                <h1 className="text-blue-950 text-5xl">Join the companies replacing CVs with TestAssessify</h1>
+                <h1 className="text-blue-950 text-5xl gal:font-bold desk:font-normal">Join the companies replacing CVs with TestAssessify</h1>
             </div>
 
             <div className="py-12 pb-16" id="bgTwo"> {/** section three */}
-                <div className="flex items-center space-x-14">
-                    <div className="w-7/12">
+                <div className="flex items-center gal:flex gal:flex-col desk:space-x-14">
+                    <div className="desk:w-7/12 gal:relative gal:-left-12 desk:static">
                         <img src={img} srcset={img} />
                     </div>
-                    <div className="w-5/12 space-y-7">
-                        <h1 className="text-4xl font-bold text-blue-950">What we do</h1>
+                    <div className="desk:w-5/12 space-y-7 gal:px-6 desK:p-0">
+                        <h1 className="desk:text-4xl gal:text-5xl font-bold text-blue-950">What we do</h1>
                         <p>We create personalised, realistic job assessment that authentically commnicate what's it's like to work within a specific role in your organisation.</p>
                         <div className="space-y-4">
                             <div className="flex space-x-4 items-center">
@@ -56,54 +56,54 @@ export default function Home(){
 
             <div className="my-8"> {/** section four */}
                 <div className="text-center my-12">
-                    <h1 className="text-4xl font-bold">Why you should use us</h1>
+                    <h1 className="desk:text-4xl gal:text-5xl gal:text-blue-950 font-bold">Why you should use us</h1>
                 </div>
-                <div className="flex items-center space-x-5 justify-center">
-                    <div className="w-3/12">
+                <div className="flex gal:space-y-8 desk:space-y-0 gal:flex-col desk:flex-row items-center desk:space-x-5 justify-center">
+                    <div className="desk:w-3/12 gal:w-10/12">
                         <img src={imgi} srcset={imgi} />
                         <div className="space-y-6 mt-4 w-12/12">
-                            <h1 className="text-2xl font-bold">Candidates</h1>
-                            <p className="text-md">Candidate feel they have been treated fairly and leave the experience as fans of your brand even if they do not get the job.</p>
+                            <h1 className="text-2xl font-bold text-blue-950">Candidates</h1>
+                            <p className="text-md text-blue-950">Candidate feel they have been treated fairly and leave the experience as fans of your brand even if they do not get the job.</p>
                         </div>
                     </div>
-                    <div className="w-3/12">
+                    <div className="desk:w-3/12 gal:w-10/12">
                         <img src={imgii} srcset={imgii} />
                         <div className="space-y-6 mt-4 w-10/12">
-                            <h1 className="text-2xl font-bold">Relevant Data</h1>
-                            <p className="text-md">You evaluate candidates based on objective, job-relevant data and demostrated abilities using a multi-method approach.</p>
+                            <h1 className="text-2xl font-bold text-blue-950">Relevant Data</h1>
+                            <p className="text-md text-blue-950">You evaluate candidates based on objective, job-relevant data and demostrated abilities using a multi-method approach.</p>
                         </div>
                     </div>
-                    <div className="w-3/12">
+                    <div className="desk:w-3/12 gal:w-10/12">
                         <img src={imgiii} srcset={imgiii} />
                         <div className="space-y-6 mt-4 w-10/12">
-                            <h1 className="text-2xl font-bold">Simulation</h1>
-                            <p className="text-md">Candidate engage in a seires of simulated tasks and job relevant exercises customised for your brand.</p>
+                            <h1 className="text-2xl font-bold text-blue-950">Simulation</h1>
+                            <p className="text-md text-blue-950">Candidate engage in a seires of simulated tasks and job relevant exercises customised for your brand.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="flex items-center" id="bgThree">
+            <div className="flex items-center gal:flex-col desk:flex-row" id="bgThree">
                 <div className="relative w-full">
-                    <div className="w-10/12 absolute left-28 space-y-6">
-                        <h1 className="font-bold text-4xl text-blue-950">Offer a positive candiate experience.</h1>
-                        <p className="w-11/12 text-blue-950">Assessments are proven to provide candidates a better experience and greater satisfaction by giving them the opportunity to engage in job relevant tasks and demonstrate skills related to the job.</p>
+                    <div className="desk:w-10/12 desk:absolute left-28 space-y-6 gal:px-10 desk:px-0">
+                        <h1 className="font-bold desk:text-4xl text-blue-950 gal:text-5xl">Offer a positive candiate experience.</h1>
+                        <p className="w-11/12 text-blue-950 gal:font-semibold desk:font-normal">Assessments are proven to provide candidates a better experience and greater satisfaction by giving them the opportunity to engage in job relevant tasks and demonstrate skills related to the job.</p>
                     </div>
                 </div>
-                <div>
+                <div className="gal:mt-6 desk:mt-0">
                     <img src={imgiv} srcset={imgiv} />
                 </div>
             </div>
 
-            <div className="flex gal:flex-col desk:flex-row items-center space-x-2 justify-center">
-                <div className="">
+            <div className="flex gal:mt-8 desk:mt-0 gal:flex-col desk:flex-row items-center space-x-2 justify-center">
+                <div className="gal:flex gal:justify-center desk:block">
                     <img src={imgv} className="w-11/12" srcset={imgv} />
                 </div>
-                <div className="w-5/12 space-y-6">
-                    <h1 className="font-bold w-10/12 text-blue-950 text-4xl">Top talent is priceless. We make finding them affordable and easier</h1>
-                    <p className="text-blue-950">A time-consuming screening process costs you a lot. Painful mis-hires cost you much, much more. With TestAssesify, you avoid all of this and see a huge return on investment every single year. Start screening with us today on our free plan.</p>
+                <div className="desk:w-5/12 gal:px-8 desk:px-0 space-y-6 desk:space-y-8">
+                    <h1 className="font-bold w-10/12 text-blue-950 text-4xl desk:text-5xl desk:w-11/12 desk:mb-6">Top talent is priceless. We make finding them affordable and easier</h1>
+                    <p className="text-blue-950 gal:font-semibold gal:!mt-8 desk:!mt-0 desk:text-xl  desk:!mb-6">A time-consuming screening process costs you a lot. Painful mis-hires cost you much, much more. With TestAssesify, you avoid all of this and see a huge return on investment every single year. Start screening with us today on our free plan.</p>
                     <div className="relative mt-8">
-                        <button className="bg-yellow-400 p-2 hover:bg-yellow-500 hover:transition-all rounded-md px-6 text-white">
+                        <button className="desk:bg-yellow-400 desk:!py-4 desk:px-12 desk:text-lg gal:bg-yellow-300 gal:px-8 gal:py-3 desk:py-0 desk:p-2 hover:bg-yellow-500 hover:transition-all rounded-md desk:px-6 text-white">
                             <span>Talk to us</span>
                         </button>
                     </div>
