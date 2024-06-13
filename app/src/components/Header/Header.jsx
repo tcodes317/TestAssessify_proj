@@ -10,12 +10,12 @@ export default function Header(){
                         <img src={logo} srcset={logo} className="w-52" />
                     </div>
                     <i className="fa fa-bars desk:hidden gal:block px-4 text-2xl"></i>
-                    <div className="gal:absolute gal:z-50 desk:static gal:hdden gal:bg-white gal:top-14 gal:w-full gal:left-0">
+                    <div className="gal:absolute gal:z-50 desk:static gal:hidden desk:block gal:bg-white gal:top-14 gal:w-full gal:left-0">
                         <nav className="desk:space-x-6 gal:px-2 desk:justify-end gal:space-x-0 font-normal desk:items-center gal:flex gal:flex-col desk:flex-row">
-                            <Link to="/" className="gal:p-3 gal:hover:bg-lime-500 desk:p-0">Home</Link>
-                            <Link to="/about" className="gal:p-3 gal:hover:bg-lime-500">About Us</Link>
-                            <Link to="/findjob" className="gal:p-3 gal:hover:bg-lime-500">Find Jobs</Link>
-                            <Link to="/forcompanies" className="gal:p-3 gal:hover:bg-lime-500">For Companies</Link>
+                            <Link to="/" className="gal:p-3 gal:hover:bg-lime-500 desk:hover:bg-none desk:p-0">Home</Link>
+                            <Link to="/about" className="gal:p-3 gal:hover:bg-lime-500 desk:hover:bg-none desk:p-0">About Us</Link>
+                            <Link to="/findjob" className="gal:p-3 gal:hover:bg-lime-500 desk:hover:bg-none desk:p-0">Find Jobs</Link>
+                            <Link to="/forcompanies" className="gal:p-3 gal:hover:bg-lime-500 desk:hover:bg-none desk:p-0">For Companies</Link>
                             <button className="p-4 py-1.5 gal:my-3 text-white px-7 rounded-md bg-lime-500">
                                 <Link to="/login">Login</Link>
                             </button>

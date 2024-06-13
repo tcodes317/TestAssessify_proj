@@ -95,7 +95,7 @@ export default function Home(){
                 </div>
             </div>
 
-            <div className="flex items-center space-x-2 justify-center">
+            <div className="flex gal:flex-col desk:flex-row items-center space-x-2 justify-center">
                 <div className="">
                     <img src={imgv} className="w-11/12" srcset={imgv} />
                 </div>
@@ -110,12 +110,13 @@ export default function Home(){
                 </div>
             </div>
 
-            <div className="flex items-center justify-between space-y-8 py-6">
-                <div className="relative top-4">
-                    <h4 className="font-bold text-lg">Get news on all the latest updates straight to your mail</h4>
+            <div className="desk:flex desk:items-center desk:justify-between desk:space-y-8 desk:py-6">
+                <div className="relative top-4 gal:mt-5 gal:mx-2">
+                    <h4 className="font-bold desk:text-lg gal:text-xl desk:text-2xl">Get news on all the latest updates straight to your mail</h4>
                 </div>
-                <div className="relative -left-12 border-2 border-black rounded-sm">
-                    <button className="bg-red-500 p-3 px-8 text-white text-xs relative z-10 left-6">
+                <div className="desk:relative gal:mt-8 gal:flex gal:mx-1 desk:px-0 gal:items-center desk:-left-12 desk:border-2 gal:border-2 desk:border-black desk:rounded-sm">
+                    <input type="search" placeholder="subscribe" className="gal:w-full desk:hidden gal:p-3" />
+                    <button className="bg-red-500 desk:p-3 desk:py-4 desk:px-10 desk:font-bold gal:py-4 px-8 text-white text-xs relative z-10 desk:left-6 gal:left-0">
                         <span>SUBSCRIBE</span>
                     </button>
                 </div>
