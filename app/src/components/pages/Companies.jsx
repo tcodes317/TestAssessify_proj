@@ -43,7 +43,7 @@ function Companies(){
                             <p className="text-center">Maximize your potentials with tailored credits</p>
                         </div>
                         <div className="flex ipad:flex-row ipad:px-8 ipad:mx-auto ipad:space-x-6 gal:px-4 gal:flex-col gal:space-y-4 items-center justify-center desk:space-x-5 mt-10">
-                            <div className="shadow-lg desk:space-y-2 gal:w-full flex desk:px-24 bg-white rounded-xl flex-col p-8 justify-center">
+                            <div className="shadow-lg desk:space-y-6 gal:w-full flex desk:px-24 bg-white rounded-xl flex-col p-8 justify-center">
                                 <h1 className="text-center text-xl">Premium Plan</h1>
                                 <p className="text-center text-md">Expand your potential</p>
                                 <div className="text-center text-md">Get 100 assessment credit for</div>
@@ -52,7 +52,7 @@ function Companies(){
                                     <span>Top Up</span>
                                 </button>
                             </div>
-                            <div className="shadow-lg desk:space-y-2 flex gal:w-full desk:px-24 bg-green-100 rounded-xl flex-col p-8 justify-center">
+                            <div className="shadow-lg desk:space-y-6 flex gal:w-full desk:px-24 bg-green-100 rounded-xl flex-col p-8 justify-center">
                                 <h1 className="text-center text-xl">Premium Plan</h1>
                                 <p className="text-center text-md">Energize your experience with a burst</p>
                                 <div className="text-center text-md">Get 500 assessment credit for</div>
@@ -61,7 +61,7 @@ function Companies(){
                                     <span>Top Up</span>
                                 </button>
                             </div>
-                            <div className="shadow-lg gal:w-full border-2 border-black desk:space-y-2 flex desk:px-24 rounded-xl flex-col p-8 justify-center">
+                            <div className="shadow-lg gal:w-full border-2 desk:space-y-6 flex desk:px-24 rounded-xl flex-col p-8 justify-center">
                                 <h1 className="text-center text-xl">Premium Plan</h1>
                                 <p className="text-center text-md">Expand your potential</p>
                                 <div className="text-center text-md">Get 100 assessment credit for</div>
@@ -72,7 +72,7 @@ function Companies(){
                             </div>
                         </div>
                     </div>
-                    <div className="flex ipad:flex-row desk:w-8/12 desk:mx-auto ipad:items-center ipad:space-x-5 gal:flex-col my-6 gal:px-4 desk:items-center justify-center desk:space-x-6">
+                    <div className="flex ipad:flex-row desk:space-y-6 desk:w-8/12 desk:mx-auto ipad:items-center ipad:space-x-5 gal:flex-col my-6 gal:px-4 desk:items-center justify-center desk:space-x-6">
                         <div className="ipad_air:w-11/12">
                             <h1>Assessment credits</h1>
                             <div className="flex items-center">
