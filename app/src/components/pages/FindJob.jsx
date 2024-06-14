@@ -20,7 +20,7 @@ export default function FindJob(){
                                 </button>
                             </form>
                         </div>
-                        <div className="absolute ipad:hidde ipad:right-0 ipad:w-5/12 top-12 right-96">
+                        <div className="absolute ipad:hidde ipad:right-0 ipad:w-5/12 nest:-right-8 nestMax:-right-14 top-12 right-96">
                             <img src={imgi} srcset={imgi} className="w-96 iph_14:hidden ipad:block pix:hidden" />
                         </div>
                     </div>
@@ -41,7 +41,7 @@ export default function FindJob(){
                                     </div>
                                     </div>
                                     <div className="relative  desk:w-2/12">
-                                    <div className="flex items-center relative justify-between">
+                                    <div className="flex items-center nestMax:ml-6 relative justify-between">
                                         <div className="flex items-center w-4/12 space-x-3">
                                             <div className="flex items-center space-x-2">
                                                 <i className="gal:text-sm fa fa-location"></i>
@@ -84,8 +84,8 @@ export default function FindJob(){
                                         </div>
                                         </div>
                                     </div>
-                                    <div className="relative desk:w-2/12">
-                                    <div className="flex items-center relative justify-between">
+                                    <div className="relative desk:left-52 desk:w-2/12">
+                                    <div className="flex items-center nestMax:ml-6 relative justify-between">
                                         <div className="flex items-center w-4/12 space-x-3">
                                             <div className="flex items-center space-x-2">
                                                 <i className="fa fa-location gal:text-sm"></i>
@@ -118,7 +118,7 @@ export default function FindJob(){
                                     </div>
                                     <div className="relative flex justify-end">
                                         <div>
-                                            <div className="absolut gal:mt-4 desk:mt-0 right-0 gal:flex desk:block space-x-4">
+                                            <div className="absolut desk:flex-row desk:items-center gal:mt-4 desk:mt-0 right-0 gal:flex desk:flex space-x-4">
                                                 <button className="p-2 bg-slate-100 gal:flex desk:block gal:items-center text-xs space-x-2 rounded-lg px-4">
                                                     <i className="fa fa-location"></i>
                                                     <span>Lagos</span>
