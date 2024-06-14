@@ -14,7 +14,7 @@ export default function Home(){
             
             <div className="w-full relative gal:pt-12 gal:pl-8 desk:pl-0 desk:pt-0" id="bgOne"> {/** section one */}
                 <div className="deskii:left-44 desk:absolute desk:left-24 ipad:w-7/12 ipad:absolute nest:top-32 ipad:top-28 space-y-8 desk:top-72 desk:w-6/12">
-                    <h1 className="desk:text-4xl font-bold ipad_pro:w-10/12 desk:w-9/12 text-black iph_se:text-4xl gal:w-10/12 gal:text-4xl iph_xr:text-5xl iph_12:text-5xl iph_12:w-11/12 sam_s8:text-5xl sam_s8:w-full deskii:text-5xl nest:text-5xl nest:w-11/12 border-2">Hire the best-accurate, fair and fast recruitment!</h1>
+                    <h1 className="desk:text-4xl font-bold ipad_pro:w-10/12 desk:w-9/12 text-black iph_se:text-4xl gal:w-10/12 gal:text-4xl iph_xr:text-5xl iph_12:text-5xl iph_12:w-11/12 sam_s8:text-5xl sam_s8:w-full deskii:text-5xl nest:text-5xl nest:w-11/12">Hire the best-accurate, fair and fast recruitment!</h1>
                     <p className="w-10/12 ipad_pro:text-xl">Our screening tests identify the best candidate and make your hiring decision faster, easier and bias-free</p>
                     <div className="">
                         <button className="bg-yellow-400 deskii:p-4 deskii:px-8 desk:p-3 gal:p-3 gal:px-7 desk:px-5 iph_xr:px-12 text-white rounded-md">
