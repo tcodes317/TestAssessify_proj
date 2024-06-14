@@ -29,6 +29,16 @@
 #ii{
     height: 300px;
 }
+@media screen and (min-width: 344px){
+    #dbgOne{
+        height: 520px !important;
+    }
+}
+@media screen and (min-width: 1440px){
+    #dbgOne{
+        height: 430px;
+    }
+}
 #dbgOne{
     background-image: url("./assets/landing_header.JPG2.18e3c423b875ba3a004a.JPG");
     /* background-image: url(https://testassessify.com/static/media/landing_header.JPG2.18e3c423b875ba3a004a.JPG); */
