@@ -1,10 +1,10 @@
-import { Header } from "./../Header/Header";
-import { Footer } from "./../Footer/Footer";
-import { imgi } from "./../../assets/image 3.1b37cf1a027061f126f7.png";
-import { imgii } from "./../../assets/image31.d9f96d75bc1692a82974.png";
-import { imgiii } from "./../../assets/circle.png";
-import { imgiv } from "./../../assets/imgcont.png";
-// import { imgv } from "./../../assets/hand-shake-imageb4a02c1519f2fdc286e4.PNG";
+import Header from "./../Header/Header";
+import Footer from "./../Footer/Footer";
+import imgi from "./../../assets/image 3.1b37cf1a027061f126f7.png";
+import imgii from "./../../assets/image31.d9f96d75bc1692a82974.png";
+import imgiii from "./../../assets/circle.png";
+import imgiv from "./../../assets/imgcont.png";
+import { imgv } from "./../../assets/pooirutuqieruiqer.png";
 
 function Companies(){
     return(
@@ -110,7 +110,7 @@ function Companies(){
                                 </div>
                             </div>
                             <div className="desk:w-4/12">
-                                {/* <img src={imgv} srcset={imgv} /> */}
+                                <img src={imgv} srcset={imgv} />
                             </div>
                         </div>
                     </div>
